@@ -1,4 +1,4 @@
-# xat v1.0.0
+# xat v1.0.1
 
 > JSX as template - React based template engine
 
