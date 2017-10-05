@@ -2,6 +2,7 @@
 
 const chalk = require('chalk')
 const pkg = require('./package')
+const xat = require('./')
 
 require('minimisted')(argv => {
   const version = argv.version
@@ -29,7 +30,7 @@ Options:
     process.exit(1)
   }
 
-  console.log(xatToString(file))
+  console.log(xat(file))
 }, {
   boolean: [
     'version',
