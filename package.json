@@ -1,0 +1,37 @@
+{
+  "name": "xat",
+  "description": "> JSX as template - React based template engine",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "kocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/xat.git"
+  },
+  "keywords": [
+    "template",
+    "react",
+    "jsx"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/xat/issues"
+  },
+  "homepage": "https://github.com/kt3k/xat#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.1.0",
+    "minimisted": "^2.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "kocha": "^1.8.1",
+    "mocha": "^4.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+const Wrapper = require('./wrapper')
+
+module.exports = props => (
+  <Wrapper>
+    <div>
+      <p>
+        Hello, xat!
+      </p>
+    </div>
+  </Wrapper>
+)
