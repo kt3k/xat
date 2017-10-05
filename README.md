@@ -44,6 +44,12 @@ module.exports = props => (
 )
 ```
 
+The above `example.xat` renders to:
+
+```
+<div class="wrapper"><div><p>Hello, xat!</p></div></div>
+```
+
 # API
 
 ```js
