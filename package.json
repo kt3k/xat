@@ -1,6 +1,6 @@
 {
   "name": "xat",
-  "description": "> JSX as template - React based template engine",
+  "description": "JSX as template - React based template engine",
   "version": "1.0.0",
   "main": "index.js",
   "bin": "./bin.js",
