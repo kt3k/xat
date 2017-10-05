@@ -2,6 +2,10 @@
 
 > JSX as template - React based template engine
 
+Supports Node.js >= 6.x
+
+Pronounced like /zat/.
+
 # `.xat` file
 
 `.xat` file is just like a `.js` file which exports a react component.
