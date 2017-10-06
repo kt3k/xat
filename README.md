@@ -6,6 +6,8 @@ Supports Node.js >= 6.x
 
 Pronounced like /zat/.
 
+`xat` is template engine based on [react][] technology. You can use react components for creating pure static html.
+
 # `.xat` file
 
 `.xat` file is just like a `.js` file which exports a react component.
@@ -85,3 +87,5 @@ Options:
 # License
 
 MIT
+
+[react]: https://facebook.github.io/react
