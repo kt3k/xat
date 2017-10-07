@@ -1,6 +1,7 @@
 const { resolve } = require('path')
 const React = require('react')
 const { renderToString } = require('react-dom/server')
+const clearModule = require('clear-module')
 
 require('babel-register')({ presets: ['react'] })
 
@@ -16,7 +17,10 @@ const xatToString = xat => renderComponent(require(resolve(xat)))
 /**
  * @param {React.Component|Function} component A react component
  */
-const renderComponent = component => renderToString(React.createElement(component)).replace(' data-reactroot=""', '')
+const renderComponent = component => {
+  clearModule.match(/\.xat$/)
+  return renderToString(React.createElement(component)).replace(' data-reactroot=""', '')
+}
 
 module.exports = xatToString
 module.exports.renderComponent = renderComponent
