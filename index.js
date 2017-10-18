@@ -3,9 +3,11 @@ const React = require('react')
 const { renderToString } = require('react-dom/server')
 const clearModule = require('clear-module')
 
-require('babel-register')({ presets: ['react'] })
-
-require.extensions['.xat'] = require.extensions['.js']
+require('babel-register')({
+  presets: [require.resolve('babel-preset-react')],
+  extensions: ['.js', '.jsx', '.xat'],
+  cache: false
+})
 
 global.React = React
 
